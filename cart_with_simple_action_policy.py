@@ -32,9 +32,4 @@ for _ in range(1000):
 	observation,reward,don,info=env.step(action)
 
 
-"""
-What this is going to do is going to randomly sample from action space and then provide that step into the environment.
-So we shouldn't actually see the pull balance we should eventually just see some sort of random sliding.
-"""
-
 
