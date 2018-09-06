@@ -10,7 +10,7 @@ for some 1000 times steps we're going to do is we're going to render the environ
 the environment basically creates this little pop up that allows you to view the environmentusing available sample space
 """
 
-for st in range(1000):
+for _ in range(1000):
 	env.render()
 	env.step(env.action_space.sample())
 
